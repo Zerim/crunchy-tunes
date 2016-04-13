@@ -19,7 +19,7 @@ deploy:
     region: us-west-2
     wait-until-deployed: true
     on:
-      branch: travis-aws-deploy
+      branch: feat/travis-aws-deploy
     secret_access_key:
       secure: Hl3qQ444+q1zZ2btcVr6Yk//IezPUgsDFgloAxrrKH3OZ05jX+lFm5j+nm12t14K+C4O/NDxlZ83iYT9sF+yqH5MQZffnuQBX2Amg5oCkNxkX9bR0/gNxFc890Hmuxs7VJ7JsRbfwIu8C5VJp9yZc+/x72fW01ctsAvyhChr3xqDuVBpcdwpbCMGV+/+tJmMpjZB5K7tUOjaIWK8Gyiv2Z5hZTa5s88sBSMQBneDf2rE9jW50Ccse9s6TlI6ZggMwQBW4e/w+Uxzjb/suTDBRH4LwKbo65K0fYIU2YaWNSoV8moQZTK9kKSwCCzFimRNonzTF1FAkDDoy2j/xWLbC6VhJGCyqdmQhnSWfnJZiWRSTmMgexLYUeuYQ5P0Wqh3RqP+gY2ewM9myfXR61k9sjxNW0mylgFacypuiW4QkTLk0uONDyF2n0GOD3Y0jA7PYjO4yzoshDHGQmd2oXR6AliMBMyevT6CdblrStKC/blpZ4IRsO9pwDIhSTtuOp7tLniQJDUHkGmvVVPAi943RgkHWEHgA8f9mo0QZfVqDYiuvQgKgLxRSnVoubBpLVSePSV71SJA/Ju6/38XiChJdlYuis86JailQsY3562wZ7aKTvQ29ffGraNjp3eLmWMtFKDBd4kr60Kc5AMn4DqtKywdQyfGJlTIWgol61BMWLc=
     access_key_id:
