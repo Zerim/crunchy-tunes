@@ -20,6 +20,7 @@ deploy:
   on: &2
     branch: feat/travis-aws-deploy
   bucket: crunchytunes
+  region: us-west-2
 - provider: codedeploy
   access_key_id: AKIAJZ7PHSPW2CQSKMSA
   secret_access_key: *1
