@@ -29,7 +29,6 @@ deploy:
   bundle_type: zip
   application: crunchy-tunes
   deployment_group: crunchy-tunes-dep-group
-  wait-until-deploy: true
   region: us-west-2
   on: *2
 before_deploy:
