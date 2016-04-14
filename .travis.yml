@@ -33,6 +33,7 @@ deploy:
   application: crunchy-tunes
   deployment_group: crunchy-tunes-dep-group
   region: us-west-2
+  wait-until-deployed: true
   on: *2
 after_deploy:
 - echo "Deploy Finished!"
