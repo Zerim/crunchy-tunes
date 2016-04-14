@@ -2,9 +2,9 @@ language: node_js
 node_js:
 - '5.8'
 before_install:
-- zip -r crunchy-tunes.zip
+- zip -r crunchy-tunes.zip .
 - mkdir -p dpl_cd_upload
-- mv crunchy-tunes.zip dpl_cd_upload/crunchy-tunes.zip .
+- mv crunchy-tunes.zip dpl_cd_upload/crunchy-tunes.zip
 before_script:
 - npm install -g webpack
 - npm install -g karma-cli
